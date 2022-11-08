@@ -1,10 +1,14 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1160px) {
     .container {
-        width: 79%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
+    .container {
+        width: 79%;
+    }
+    
     .row {
         flex-wrap: wrap;
         justify-content: center;
@@ -14,7 +18,7 @@
         width: 100%;
         margin-bottom: 4rem;
     }
-
+    
     .steps, .why-us {
         margin: 0;
     }
@@ -23,7 +27,7 @@
         background-color: #222222;
         padding-top: 2rem;
     }
-
+    
     .why-us .col-right {
         width: 100%;
     }
