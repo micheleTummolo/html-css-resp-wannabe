@@ -9,7 +9,8 @@
         flex-wrap: wrap;
     }
 
-    .lessons .col {
+    .lessons .col, .steps .col {
         width: 100%;
+        margin-bottom: 4rem;
     }
 }
